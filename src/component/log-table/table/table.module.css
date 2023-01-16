@@ -1,0 +1,13 @@
+.lb_title{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}

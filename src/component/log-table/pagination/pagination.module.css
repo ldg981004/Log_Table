@@ -1,0 +1,42 @@
+.pageui{
+    float: left;
+    list-style: none;
+    text-align: center;
+    border-radius: 3px;
+    color: black;
+    margin-top: 20px;
+    padding: 1px;
+    background: none;
+}
+
+.pageli{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    width: 25px;
+}
+
+.pageli:hover{
+    text-decoration: underline;
+}
+
+.pagebutton{
+    border: none;
+    background: none;
+    font-size: 13px;
+}
+
+.pagebutton:hover{
+    text-decoration: underline;
+}
+
+.pagebutton:disabled{
+    text-decoration: none;
+}
+
+div[aria-current]{
+    color: rgb(73, 149, 192);
+    text-decoration: underline;
+}

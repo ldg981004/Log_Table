@@ -1,0 +1,59 @@
+.table_container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.table_tr_1{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2.5px solid rgb(233, 233, 233);
+    line-height: 3rem;
+}
+
+.table_tr_2{
+    color: black;
+    text-align: center; 
+    font-size: 15px;
+    line-height:2.5rem;
+    border-bottom: 2.1px solid rgb(233, 233, 233);
+}
+
+
+.table_tr_2:nth-child(2n+1){
+    background-color: rgb(233, 233, 233);
+}
+
+.table_td{
+    border-left: none;
+    border-right: none;
+}
+
+.table_thead_1{
+    max-width: 100px;
+    min-width: 100px;
+    width: 100px;
+}
+
+.table_thead_2{
+    max-width: 250px;
+    min-width: 250px;
+    width: 250px;
+}
+
+.table_thead_3{
+    min-width: 250px;
+    max-width: 250px;
+    width: 250px;
+}
+
+.table_thead_4{
+    min-width: 250px;
+}
+
+.table_thead_5{
+    min-width: 150px;
+}
